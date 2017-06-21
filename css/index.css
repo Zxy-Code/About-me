@@ -929,7 +929,8 @@ i.phone {
 .weixin_img{
 	width: 260px;
 	height: 315px;
-	/*border: 1px solid #FFD670;*/
+	 padding: 8px 8px 0px;
+	border: 1px solid #222;
 	position: absolute;
 	left:-260px;
 	top: -280px;

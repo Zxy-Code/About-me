@@ -1,0 +1,16 @@
+@keyframes percent {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+@keyframes begin {
+    0%{
+        transform: translate(0,0);
+    }
+    100%{
+        transform: translate(0,10px);
+    }
+}

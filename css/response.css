@@ -1,0 +1,451 @@
+/*按几列分*/
+.container {
+  width: 580px;
+  height: auto;
+  overflow: hidden;
+  font-size: 10px;
+}
+.container > .row {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.container-fluid {
+  width: 1170px;
+  height: auto;
+  overflow: hidden;
+}
+.container-fluid > .row {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.header-banner {
+  height: 464px;
+}
+.portfolio-section-top-row-right-grid {
+  padding-left: 0px;
+}
+.container > .row > .col-s-1 {
+  width: 8.33333333%;
+  float: left;
+}
+.container-fluid > .row > .col-s-1 {
+  width: 8.33333333%;
+  float: left;
+}
+.container > .row > .col-s-2 {
+  width: 16.66666667%;
+  float: left;
+}
+.container-fluid > .row > .col-s-2 {
+  width: 16.66666667%;
+  float: left;
+}
+.container > .row > .col-s-3 {
+  width: 25%;
+  float: left;
+}
+.container-fluid > .row > .col-s-3 {
+  width: 25%;
+  float: left;
+}
+.container > .row > .col-s-4 {
+  width: 33.33333333%;
+  float: left;
+}
+.container-fluid > .row > .col-s-4 {
+  width: 33.33333333%;
+  float: left;
+}
+.container > .row > .col-s-5 {
+  width: 41.66666667%;
+  float: left;
+}
+.container-fluid > .row > .col-s-5 {
+  width: 41.66666667%;
+  float: left;
+}
+.container > .row > .col-s-6 {
+  width: 50%;
+  float: left;
+}
+.container-fluid > .row > .col-s-6 {
+  width: 50%;
+  float: left;
+}
+.container > .row > .col-s-7 {
+  width: 58.33333333%;
+  float: left;
+}
+.container-fluid > .row > .col-s-7 {
+  width: 58.33333333%;
+  float: left;
+}
+.container > .row > .col-s-8 {
+  width: 66.66666667%;
+  float: left;
+}
+.container-fluid > .row > .col-s-8 {
+  width: 66.66666667%;
+  float: left;
+}
+.container > .row > .col-s-9 {
+  width: 75%;
+  float: left;
+}
+.container-fluid > .row > .col-s-9 {
+  width: 75%;
+  float: left;
+}
+.container > .row > .col-s-10 {
+  width: 83.33333333%;
+  float: left;
+}
+.container-fluid > .row > .col-s-10 {
+  width: 83.33333333%;
+  float: left;
+}
+.container > .row > .col-s-11 {
+  width: 91.66666667%;
+  float: left;
+}
+.container-fluid > .row > .col-s-11 {
+  width: 91.66666667%;
+  float: left;
+}
+.container > .row > .col-s-12 {
+  width: 100%;
+  float: left;
+}
+.container-fluid > .row > .col-s-12 {
+  width: 100%;
+  float: left;
+}
+@media screen and (min-width: 750px) {
+  .container {
+    width: 750px;
+    font-size: 12px;
+  }
+  .header-banner {
+    height: 610px;
+  }
+  .portfolio-section-top-row-right-grid {
+    padding-left: 0px;
+  }
+  .container > .row > .col-m-1 {
+    width: 8.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-1 {
+    width: 8.33333333%;
+    float: left;
+  }
+  .container > .row > .col-m-2 {
+    width: 16.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-2 {
+    width: 16.66666667%;
+    float: left;
+  }
+  .container > .row > .col-m-3 {
+    width: 25%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-3 {
+    width: 25%;
+    float: left;
+  }
+  .container > .row > .col-m-4 {
+    width: 33.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-4 {
+    width: 33.33333333%;
+    float: left;
+  }
+  .container > .row > .col-m-5 {
+    width: 41.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-5 {
+    width: 41.66666667%;
+    float: left;
+  }
+  .container > .row > .col-m-6 {
+    width: 50%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-6 {
+    width: 50%;
+    float: left;
+  }
+  .container > .row > .col-m-7 {
+    width: 58.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-7 {
+    width: 58.33333333%;
+    float: left;
+  }
+  .container > .row > .col-m-8 {
+    width: 66.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-8 {
+    width: 66.66666667%;
+    float: left;
+  }
+  .container > .row > .col-m-9 {
+    width: 75%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-9 {
+    width: 75%;
+    float: left;
+  }
+  .container > .row > .col-m-10 {
+    width: 83.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-10 {
+    width: 83.33333333%;
+    float: left;
+  }
+  .container > .row > .col-m-11 {
+    width: 91.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-11 {
+    width: 91.66666667%;
+    float: left;
+  }
+  .container > .row > .col-m-12 {
+    width: 100%;
+    float: left;
+  }
+  .container-fluid > .row > .col-m-12 {
+    width: 100%;
+    float: left;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 950px;
+    font-size: 14px;
+  }
+  .header-banner {
+    height: 755px;
+  }
+  .portfolio-section-top-row-right-grid {
+    padding-left: 30px;
+  }
+  .container > .row > .col-l-1 {
+    width: 8.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-1 {
+    width: 8.33333333%;
+    float: left;
+  }
+  .container > .row > .col-l-2 {
+    width: 16.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-2 {
+    width: 16.66666667%;
+    float: left;
+  }
+  .container > .row > .col-l-3 {
+    width: 25%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-3 {
+    width: 25%;
+    float: left;
+  }
+  .container > .row > .col-l-4 {
+    width: 33.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-4 {
+    width: 33.33333333%;
+    float: left;
+  }
+  .container > .row > .col-l-5 {
+    width: 41.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-5 {
+    width: 41.66666667%;
+    float: left;
+  }
+  .container > .row > .col-l-6 {
+    width: 50%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-6 {
+    width: 50%;
+    float: left;
+  }
+  .container > .row > .col-l-7 {
+    width: 58.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-7 {
+    width: 58.33333333%;
+    float: left;
+  }
+  .container > .row > .col-l-8 {
+    width: 66.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-8 {
+    width: 66.66666667%;
+    float: left;
+  }
+  .container > .row > .col-l-9 {
+    width: 75%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-9 {
+    width: 75%;
+    float: left;
+  }
+  .container > .row > .col-l-10 {
+    width: 83.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-10 {
+    width: 83.33333333%;
+    float: left;
+  }
+  .container > .row > .col-l-11 {
+    width: 91.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-11 {
+    width: 91.66666667%;
+    float: left;
+  }
+  .container > .row > .col-l-12 {
+    width: 100%;
+    float: left;
+  }
+  .container-fluid > .row > .col-l-12 {
+    width: 100%;
+    float: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+    font-size: 16px;
+  }
+  .header-banner {
+    height: 860px;
+  }
+  .portfolio-section-top-row-right-grid {
+    padding-left: 30px;
+  }
+  .container > .row > .col-c-1 {
+    width: 8.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-c-1 {
+    width: 8.33333333%;
+    float: left;
+  }
+  .container > .row > .col-c-2 {
+    width: 16.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-c-2 {
+    width: 16.66666667%;
+    float: left;
+  }
+  .container > .row > .col-c-3 {
+    width: 25%;
+    float: left;
+  }
+  .container-fluid > .row > .col-c-3 {
+    width: 25%;
+    float: left;
+  }
+  .container > .row > .col-c-4 {
+    width: 33.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-c-4 {
+    width: 33.33333333%;
+    float: left;
+  }
+  .container > .row > .col-c-5 {
+    width: 41.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-c-5 {
+    width: 41.66666667%;
+    float: left;
+  }
+  .container > .row > .col-c-6 {
+    width: 50%;
+    float: left;
+  }
+  .container-fluid > .row > .col-c-6 {
+    width: 50%;
+    float: left;
+  }
+  .container > .row > .col-c-7 {
+    width: 58.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-c-7 {
+    width: 58.33333333%;
+    float: left;
+  }
+  .container > .row > .col-c-8 {
+    width: 66.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-c-8 {
+    width: 66.66666667%;
+    float: left;
+  }
+  .container > .row > .col-c-9 {
+    width: 75%;
+    float: left;
+  }
+  .container-fluid > .row > .col-c-9 {
+    width: 75%;
+    float: left;
+  }
+  .container > .row > .col-c-10 {
+    width: 83.33333333%;
+    float: left;
+  }
+  .container-fluid > .row > .col-c-10 {
+    width: 83.33333333%;
+    float: left;
+  }
+  .container > .row > .col-c-11 {
+    width: 91.66666667%;
+    float: left;
+  }
+  .container-fluid > .row > .col-c-11 {
+    width: 91.66666667%;
+    float: left;
+  }
+  .container > .row > .col-c-12 {
+    width: 100%;
+    float: left;
+  }
+  .container-fluid > .row > .col-c-12 {
+    width: 100%;
+    float: left;
+  }
+}
+* {
+  box-sizing: border-box;
+}
